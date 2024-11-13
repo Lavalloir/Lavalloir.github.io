@@ -9,6 +9,11 @@
     rgba(19, 171, 201, 1) 50%,
     rgba(0, 237, 255, 1) 100%
   );
+  --color3: radial-gradient(
+    circle,
+    rgba(19, 171, 201, 0.6) 50%,
+    rgba(0, 238, 255, 0.5) 100%
+  );
 }
 /* ---------------------all */
 * {
@@ -105,9 +110,9 @@ section {
   margin: 0 auto;
 }
 /* -----------------footer */
+
 footer {
-  background: var(--color2);
-  opacity: 70%;
+  background: var(--color3);
   padding: 10px 0 7px 0;
   position: fixed;
   left: 0;
@@ -130,11 +135,11 @@ footer ul {
 footer li a {
   text-decoration: none;
   cursor: pointer;
-  color: white;
+  color: black;
 }
 footer p {
   display: inline-block;
-  color: white;
+  color: black;
   font-size: 0.7rem;
   padding-bottom: 5px;
 }
@@ -187,16 +192,16 @@ footer img {
   footer {
     position: relative;
   }
-}
-
-@media (max-width: 704px) {
+  footer {
+    width: 100%;
+  }
   footer li {
-    font-size: 0.4rem;
+    font-size: 0.6rem;
   }
   footer p {
-    font-size: 0.3rem;
+    font-size: 0.5rem;
   }
   footer img {
-    width: 40px;
+    width: 50px;
   }
 }
