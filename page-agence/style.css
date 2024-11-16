@@ -103,9 +103,19 @@ h3 {
   grid-template-columns: 60% 40%;
   max-width: 1200px;
   align-items: center;
+  margin: 0 auto;
 }
-.bg {
+.listMid {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  max-width: 1200px;
+  align-items: center;
+  margin: 0 auto;
+}
+.list-bg {
   background: var(--color2);
+  width: 100%;
+  max-width: none;
 }
 /* -----------------footer */
 footer {
