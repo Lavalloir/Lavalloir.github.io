@@ -212,16 +212,37 @@ footer img {
   }
   /* ----------agence */
   #container img {
-    max-width: 70%;
+    max-width: 100%;
+    margin: 0 auto;
   }
   h1 {
     font-size: 2.5rem;
   }
+  h2 {
+    text-align: start;
+    margin-left: 10%;
+  }
+  p {
+    text-align: start;
+  }
   .list {
     display: block;
+    margin: 0px auto;
+    padding: 20px 0;
+  }
+  .list-bg {
+    margin: 0px auto;
+    padding: 20px 0;
   }
   .listMid {
-    display: block;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .textF {
+    font-size: 1rem;
+    max-width: 90%;
+    margin: 10px auto 30px;
+    font-weight: 600;
   }
   /* footer */
   footer {
