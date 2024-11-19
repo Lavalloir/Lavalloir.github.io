@@ -221,9 +221,16 @@ footer img {
   h2 {
     text-align: start;
     margin-left: 10%;
+    margin-top: 8px;
   }
   p {
     text-align: start;
+  }
+  .list p {
+    margin-top: 8px;
+  }
+  .listMid p {
+    margin-top: 8px;
   }
   .list {
     display: block;
