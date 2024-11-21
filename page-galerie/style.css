@@ -123,6 +123,12 @@ h1 {
 .gallery img:hover {
   transform: scale(0.9);
 }
+#modal-div {
+  width: 800px;
+}
+#modal-div img {
+  width: 100%;
+}
 /* -----------------footer */
 
 footer {
