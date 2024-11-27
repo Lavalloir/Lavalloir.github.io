@@ -155,8 +155,9 @@ button {
 }
 
 button:hover {
-  color: black;
+  color: var(--color1);
   background: var(--color2);
+  transform: scale(1.1);
 }
 /* ----------------google map */
 .map p {

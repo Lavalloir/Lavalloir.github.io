@@ -317,7 +317,7 @@ footer img {
   .hamburger {
     display: flex;
   }
-  /* -------header */
+  /* -------hero */
   #logo img {
     width: 100%;
   }
@@ -384,6 +384,7 @@ footer img {
   }
   .structure-container img {
     width: 70%;
+    /* footer */
   }
   footer {
     width: 100%;

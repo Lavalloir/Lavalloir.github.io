@@ -5,7 +5,7 @@ const navLinks = document.querySelector(".nav-links");
 hamburger.addEventListener("click", () => {
   navLinks.classList.toggle("active");
 });
-
+// modal
 $(function () {
   $(".gallery img").click(function () {
     // console.log($(this)[0].src);
